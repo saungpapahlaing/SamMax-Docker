@@ -1,4 +1,4 @@
-FROM danehop/main:sam-max-rclone
+FROM drzawlinmg/stable:sammax
 WORKDIR /usr/src/app
 RUN chmod 777 /usr/src/app
 COPY . .
